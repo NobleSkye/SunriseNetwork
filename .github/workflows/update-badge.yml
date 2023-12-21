@@ -2,7 +2,7 @@ name: Update Player Count Badge
 
 on:
   schedule:
-    - cron: '* * * * *'  # Run every minute
+    - cron: '30 12 12 10 mon'  # Run every minute
 
 jobs:
   update-badge:

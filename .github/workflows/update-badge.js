@@ -11,7 +11,7 @@ async function updateBadge() {
   const playerCount = data.players.online;
 
   // Create a dynamic badge URL
-const playerCount = 10; // Replace with the actual player count
+const playerCount + 1; // Replace with the actual player count
 const markdown = `![Players Online](https://img.shields.io/badge/Players%20Online-${playerCount}-brightgreen)`;
 // Now use the 'markdown' variable where appropriate
 
